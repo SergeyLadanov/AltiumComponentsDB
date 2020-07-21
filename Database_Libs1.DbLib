@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\serge\OneDrive\Рабочий стол\AltiumComponentsDB\DB_Storage.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Documents\AltiumComponentsDB\DB_Storage.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,35 +19,63 @@ LibrarySearchPath=C:\Users\serge\OneDrive\Рабочий стол\AltiumComponentsDB\Librar
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=SMD_Resistors$
+LastFocusedTable=SMD_Ceramic_Capacitors$
 [Table1]
 SchemaName=
-TableName=SMD_Resistors$
+TableName=SMD_Ceramic_Capacitors$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=183|Library Ref0=90|Library Path0=163|Description0=101|Footprint Path0=169|Footprint Ref0=105|Footprint Path 20=126|Footprint Ref 20=117|Footprint Path 30=126|Footprint Ref 30=117|Comment0=86|Manufacturer0=108|ManufacturerPartNumber0=183|Power\Voltage0=115|Rem0=52|TKE0=47|Tolerance0=83|TU/GOST0=82|Type0=54|Value0=67|Корпус0=70|Примечание0=106|Power/Voltage0=115|GroupSpecification0=139|UnitsValue0=91|PrimaryValue0=106
+BrowserOrder_Visible=Part Number0=191|Library Ref0=90|Library Path0=163|Comment0=86|Description0=220|Manufacturer0=108|ManufacturerPartNumber0=183|Rem0=52|Tolerance0=83|Type0=54|Value0=76|Корпус0=70|Примечание0=106|Footprint Path0=169|Footprint Ref0=105|Power/Voltage0=115|Footprint Path 20=126|Footprint Ref 20=117|Footprint Path 30=126|Footprint Ref 30=117|GroupSpecification0=139|UnitsValue0=91|PrimaryValue0=106
+[Table2]
+SchemaName=
+TableName=SMD_Resistors$
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
-Options=FieldName=SMD_Resistors$.Part Number|TableNameOnly=SMD_Resistors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Part Number|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=SMD_Resistors$.Library Ref|TableNameOnly=SMD_Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Library Ref|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=SMD_Resistors$.Library Path|TableNameOnly=SMD_Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Library Path|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=SMD_Resistors$.Description|TableNameOnly=SMD_Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Comment|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=SMD_Resistors$.Footprint Path|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Description|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=SMD_Resistors$.Footprint Ref|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Path|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=SMD_Resistors$.Footprint Path 2|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Ref|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=SMD_Resistors$.Footprint Ref 2|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Path 2|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=SMD_Resistors$.Footprint Path 3|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Ref 2|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=SMD_Resistors$.Footprint Ref 3|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Path 3|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
+Options=FieldName=SMD_Ceramic_Capacitors$.Footprint Ref 3|TableNameOnly=SMD_Ceramic_Capacitors$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=SMD_Resistors$.Part Number|TableNameOnly=SMD_Resistors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=SMD_Resistors$.Library Ref|TableNameOnly=SMD_Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=SMD_Resistors$.Library Path|TableNameOnly=SMD_Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=SMD_Resistors$.Description|TableNameOnly=SMD_Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=SMD_Resistors$.Footprint Path|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=SMD_Resistors$.Footprint Ref|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=SMD_Resistors$.Footprint Path 2|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=SMD_Resistors$.Footprint Ref 2|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=SMD_Resistors$.Footprint Path 3|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=SMD_Resistors$.Footprint Ref 3|TableNameOnly=SMD_Resistors$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
 Options=FieldName=SMD_Resistors$.Comment|TableNameOnly=SMD_Resistors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
