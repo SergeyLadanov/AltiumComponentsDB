@@ -6,8 +6,8 @@
 
 ### Общая структура файлов
 
-1. Libraries\Elements.SchLib - Библиотека УГО;
-2. Libraries\footprints.PcbLib - Библиотека посадочных мест;
+1. SchLib - Библиотеки УГО;
+2. PcbLib - Библиотеки посадочных мест;
 3. Database_Libs1.DbLib - Основной файл библиотеки;
 4. DB_Storage.xlsx - Файл с информацией о связи УГО и посадочных мест.
 
